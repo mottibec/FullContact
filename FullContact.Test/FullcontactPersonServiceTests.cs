@@ -12,7 +12,7 @@ namespace FullContact.Test
         [SetUp]
         public void Setup()
         {
-            _service = new FullcontactPersonService("full contact", "https://api.fullcontact.com", "vMUnpZld6uc0cceZmw3mavlXjg2SI1M1");
+            _service = new FullcontactPersonService("full contact", "https://api.fullcontact.com", "apikey");
         }
 
         [Test]
